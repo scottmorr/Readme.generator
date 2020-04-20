@@ -1,6 +1,6 @@
 const fs = require("fs");
 const inquirer = require("inquirer");
-const generateMarkdown = require("utils/generateMarkdown");
+const generateMarkdown = require("./utils/generateMarkdown");
 
 
 inquirer
@@ -15,6 +15,15 @@ inquirer
             message: "What is your email?",
             name: "email"
         }, {
+            type: "input",
+            message: "What is the name of your project",
+            name: "title"
+        }, {
+            type: "input",
+            message: "What is the name of the author",
+            name: "author"
+        },
+        {
             type: "input",
             message: "Add the link of your project.",
             name: "url"
@@ -33,14 +42,8 @@ inquirer
 
     ])
     .then(function (response) {
-        if (response.confirm === response.password) {
-            console.log("Success!");
-        }
-        else {
-            console.log("You forgot your password already?!");
-        }
-
-        fs.writeFileSync("ReadME.md", JSON.stringify(response), function (err) {
+        //create data object
+        fs.writeFileSync("README.md", generateMarkdown(response), function (err) {
             if (err) return console.log(err)
         });
     });
