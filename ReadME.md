@@ -1,4 +1,6 @@
+READMeGenerator:
 
+Created in Node.Js.  READMe was created using NPM Inquirer.  Inquirer provided question prompts to better assist in READMe completion.  Included in this README are images of the created project with video highlighting project usage.
     
     # Project Title: Readme
     ### Authors: Scott, Corey
