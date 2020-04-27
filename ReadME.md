@@ -6,7 +6,9 @@ Created in Node.Js.  READMe was created using NPM Inquirer.  Inquirer provided q
    This image indicates Inquirer. Also provided is the function that allowed me to transfer pormpt questions to new page.
    
    
-   
+   ![node index js](https://user-images.githubusercontent.com/61360215/80430728-b8899c00-88ac-11ea-992a-d2cf97538cf0.jpg)
+
+Prompts with answers. Accessed within index.js terminal.
    
    
    
