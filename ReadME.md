@@ -1,13 +1,14 @@
 
-    #the project
-    ### Author: scott
-    ### Github User: scott
-    ###Project link: me@yahoo.com
-    ###Project Description: it was fun
-    ###Project license: MIT
+    
+    # Project Title: Readme
+    ### Authors: Scott, Corey
+    ### Github User: scottmorr
+    ###Project link: https://github.com/scottmorr/readme
+    ###Project Description: it was hard
+    ###Project license:  [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/scottmorr/readme)
     
 
-    ##### please contact me@gmail.com
+    ##### please contact scott@gmail.com
     
     
     

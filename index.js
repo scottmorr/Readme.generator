@@ -20,7 +20,7 @@ inquirer
             name: "title"
         }, {
             type: "input",
-            message: "What is the name of the author",
+            message: "List the names of all contributors",
             name: "author"
         },
         {
@@ -35,7 +35,7 @@ inquirer
         {
             type: "list",
             message: "What license does your project have?",
-            choices: ["MIT", "None", "APACHE"],
+            choices: ["MIT", "None", "APACHE2.0"],
             name: "license"
         },
 
@@ -46,4 +46,5 @@ inquirer
         fs.writeFileSync("README.md", generateMarkdown(response), function (err) {
             if (err) return console.log(err)
         });
+        console.log("Success! A README has beenn created.");
     });
